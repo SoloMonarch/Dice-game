@@ -15,7 +15,7 @@ var images2 = "images/dice"+ randomNumber2 +".png";
     }
     else if (randomNumber1 >= randomNumber2){
         document.querySelector("h4").innerHTML = "Coline Win";
-        document.querySelector(".winner").setAttribute("src","images/coline.jpg");
+        document.querySelector(".winner").setAttribute("src","images/Coline.jpg");
     }
     else if (randomNumber1 <= randomNumber2){
         document.querySelector("h4").innerHTML = "Pradeep Win";
